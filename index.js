@@ -61,11 +61,13 @@ function taskSepriyan(){
     } catch (error) {
         console.log(error.message);
     }
+    // soal nomor 3
     try {
         sepriyan.notiga(4);
     } catch (error) {
         console.log(error.message);
     }
+    // soal nomor 4
     try {
         const arr =[1,2,3,4,5];
         const arr2 =[2,4,6];
@@ -74,11 +76,13 @@ function taskSepriyan(){
     } catch (error) {
         console.log(error.message);
     }
+    // soal no lima
     try {
         sepriyan.nolima(3);
     } catch (error) {
         console.log(error.message);
     }
+    // soal no enam
     try {
         sepriyan.noenam(1,5);
     } catch (error) {
