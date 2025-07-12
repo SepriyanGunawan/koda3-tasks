@@ -79,6 +79,11 @@ function taskSepriyan(){
     } catch (error) {
         console.log(error.message);
     }
+    try {
+        sepriyan.noenam(1,5);
+    } catch (error) {
+        console.log(error.message);
+    }
 }
 taskSepriyan();
 // import your tasks here
