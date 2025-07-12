@@ -54,6 +54,13 @@ function taskSepriyan(){
     } catch (error) {
         console.log(error);
     }
+    // soal nomor 2
+    try {
+        const arr =[1,2,3,4,5];
+        sepriyan.perkalianarry(arr);
+    } catch (error) {
+        console.log(error.message);
+    }
 }
 taskSepriyan();
 // import your tasks here
