@@ -42,10 +42,18 @@ function tasksIrul(){
         console.log(error.message);
     }
 }
-tasksIrul();
+// tasksIrul();
 
 /**
  * Task "Person Name"
  */
-
+const sepriyan = require("./tasks/sepriyan");
+function taskSepriyan(){
+    try {
+        sepriyan.triangle(3);
+    } catch (error) {
+        console.log(error);
+    }
+}
+taskSepriyan();
 // import your tasks here
