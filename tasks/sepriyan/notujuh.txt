@@ -1,0 +1,20 @@
+A. 
+Terjadi di: File: app.js
+Baris 15:10 di dalam fungsi getUserData
+Fungsi ini dipanggil dari processUser (baris 30)
+Yang dipanggil main (baris 50)
+tidak menemukan variabel bernama user pada saat fungsi getUserData dijalankan.
+B. 
+Terjadi di:File: data.js
+processData (baris 8, kolom 15)
+Dipanggil dari handleRequest server.js baris 20 kolom 5
+Dipanggil dari main app.js:35:2 baris 35 kolom 2
+JavaScript mencoba membaca properti .length dari nilai null.
+C. Error ini terjadi karena sintaks tidak lengkap atau tidak cocok, berkaitan dengan tanda kurung ( dan ). baris 5 di script.js.
+D.  File: order.js
+Baris 18, dalam fungsi updateOrder
+Dipanggil dari fungsi processOrder (baris 35)
+Dan itu dipanggil oleh checkout di file cart.js baris 50
+Error ini muncul karena kamu mencoba mengakses properti dari variabel yang undefined.
+E. File: app.js function recursiveFunction Baris 10
+Terjadi berulang kali karena fungsi memanggil dirinya sendiri terus menerus. Error Maximum call stack size exceeded berarti fungsi rekursif tidak pernah berhenti.

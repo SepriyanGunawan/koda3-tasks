@@ -52,7 +52,7 @@ function taskSepriyan(){
     try {
         sepriyan.triangle(3);
     } catch (error) {
-        console.log(error);
+        console.log(error.message);
     }
     // soal nomor 2
     try {
