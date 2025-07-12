@@ -66,6 +66,14 @@ function taskSepriyan(){
     } catch (error) {
         console.log(error.message);
     }
+    try {
+        const arr =[1,2,3,4,5];
+        const arr2 =[2,4,6];
+        sepriyan.noempat(arr);
+        sepriyan.noempat(arr2);
+    } catch (error) {
+        console.log(error.message);
+    }
 }
 taskSepriyan();
 // import your tasks here

@@ -1,4 +1,5 @@
 exports.notiga = function(angka) {
+    console.log("\n---- Soal nomor 3 ----");
     try {
         if (typeof angka !== "number" || angka < 0) {
             throw new Error("bukan type number harus number dan tidak boleh mines");
