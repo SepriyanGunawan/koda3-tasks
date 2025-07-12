@@ -45,7 +45,7 @@ function tasksIrul(){
 tasksIrul();
 
 /**
- * Task "Person Name"
+ * Task "Sepriyan Gunawan"
  */
 const sepriyan = require("./tasks/sepriyan");
 function taskSepriyan(){
