@@ -61,6 +61,11 @@ function taskSepriyan(){
     } catch (error) {
         console.log(error.message);
     }
+    try {
+        sepriyan.notiga(4);
+    } catch (error) {
+        console.log(error.message);
+    }
 }
 taskSepriyan();
 // import your tasks here
